@@ -1,0 +1,5 @@
+CREATE TABLE posts (
+  `id`          INT NOT NULL auto_increment PRIMARY KEY,
+  `content`     TEXT NOT NULL,
+  `created_at`  DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+) DEFAULT CHARACTER SET 'UTF8';
